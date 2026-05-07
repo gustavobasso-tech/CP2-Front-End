@@ -3,86 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeoPixel Studio | Checkpoint 2</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
+    <title>NeoPixel Studio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header id="main-header">
-        <div class="header-top-bar">
-            <h1 class="header-main-title">NEOPIXEL STUDIO</h1>
+    <header>
+        <div class="container">
+            <div class="logo">NEOPIXEL STUDIO</div>
         </div>
-        <div class="hero-banner">
-            </div>
     </header>
 
-    <main class="page-content">
-        
-        <section id="inicio" class="section-hero">
-    <div class="hero-content">
-        <h2>Transformando pixels em experiências inteligentes.</h2>
-        <p>Combinamos a inteligência artificial com o design centrado no humano para criar experiências digitais profundamente funcionais.</p>
-        
-        <a href="#servicos" class="btn-main">Nossos Projetos</a>
-    </div>
-</section>
+    <section class="hero">
+        <div class="container">
+            <h1>Transformando Pixels em<br>Experiências Inteligentes.</h1>
+            <p>Combinamos a inteligência artificial com o design centrado no humano.</p>
+            <a href="#" class="btn-main">Nossos Projetos</a>
+        </div>
+    </section>
 
-        <section id="projetos" class="section-container section-split">
+    <div class="container">
+        <section class="section-projects">
             <div class="text-side">
-                <h2 class="title-decoration">PROJETOS EM DESTAQUE</h2>
-                <p>
-                    De landing pages que convertem a plataformas e-commerce robustas, nosso portfólio reflete nossa paixão pela perfeição, unindo criatividade e expertise técnica em cada projeto.
-                </p>
-                
+                <h2 class="title-decoration">Projetos em Destaque</h2>
+                <p>Criamos soluções digitais que unem estética de ponta e funcionalidade. De e-commerces intuitivos a landing pages de alta conversão, transformamos sua visão em uma presença online impecável e lucrativa.</p>
             </div>
             <div class="image-side">
-                <img src="imagens/imagem-projeto.jpg" alt="Exemplo de Projeto">
-            </div>
+    <img src="imagens/ecommerce.webp" alt="Mockup do Projeto" class="mockup-img">
+</div>
         </section>
 
-        <section id="planos" class="section-container">
-            <h2 class="title-decoration">NOSSOS PLANOS</h2>
-            <div class="plan-cards-flex">
-                <div class="plan-card default-card">
+        <section class="section-plans">
+            <h2 class="title-decoration">Nossos Planos</h2>
+            <div class="plan-grid">
+                <div class="plan-card">
                     <h3>Landing Page</h3>
-                    <p class="price-tag">R$ 1.500,00</p>
+                    <div class="price">R$ 1.500,00</div>
                 </div>
-                <div class="plan-card dark-card">
+                <div class="plan-card">
                     <h3>Site Institucional</h3>
-                    <p class="price-tag">R$ 3.000,00</p>
+                    <div class="price">R$ 3.000,00</div>
                 </div>
-                <div class="plan-card default-card">
+                <div class="plan-card">
                     <h3>E-commerce</h3>
-                    <p class="price-tag">R$ 5.500,00</p>
+                    <div class="price">R$ 5.500,00</div>
                 </div>
             </div>
         </section>
+    </div>
 
-        <section id="galeria" class="section-container">
-            <h2 class="title-decoration"></h2>
-            <div class="gallery-images-flex">
-                <img src="imagens/galeria-1.jpg" alt="Galeria Imagem 1">
-                <img src="imagens/galeria-2.jpg" alt="Galeria Imagem 2">
-                <img src="imagens/galeria-3.jpg" alt="Galeria Imagem 3">
-            </div>
-        </section>
-
-        <section id="contato" class="section-container">
-            <h2 class="title-decoration">CONTATO</h2>
-            <ul class="contact-methods">
-                <li><i class='bx bx-envelope'></i> neopixel@studio.com.br</li>
-                <li><i class='bx bxl-whatsapp'></i> (11) 98888-7777</li>
-                <li><i class='bx bx-map'></i> Av. Paulista, 2000 - SP</li>
+    <section class="section-contact">
+        <div class="container">
+            <h2 class="title-decoration">Contato</h2>
+            <ul class="contact-list">
+                <li>📧 neopixel@studio.com.br</li>
+                <li>📱 (11) 98888-7777</li>
+                <li>📍 Av. Paulista, 2000 - SP</li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-    </main>
-
-    <footer id="main-footer">
-        <p>&copy; COPYRIGHT - NEOPIXEL STUDIO</p>
-        <p>RM XXXXX</p>
+    <footer>
+        <p>© 2026 NEOPIXEL STUDIO - Todos os direitos reservados.</p>
     </footer>
 
 </body>
